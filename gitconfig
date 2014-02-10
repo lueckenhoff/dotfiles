@@ -1,0 +1,17 @@
+[user]
+	name = Bruce Lueckenhoff
+	email = bruce.lueckenhoff@gmail.com
+
+[alias]
+        ribbon = tag --force _ribbon origin/master
+        catchup = log --patch --reverse --topo-order _ribbon..origin/master
+        st = status
+        ci = commit
+        br = branch
+        co = checkout
+        df = diff
+        dc = diff --cached
+        lg = log -p
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+        ls = ls-files
