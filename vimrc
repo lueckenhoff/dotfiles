@@ -2,6 +2,8 @@ set autoindent expandtab ignorecase modeline shiftwidth=4 showmatch wrapscan
 set background=dark
 highlight OverLength ctermbg=Red  ctermfg=White
 match OverLength /\%>78v.\+/
+highlight TrailWhiteSpace ctermbg=Red  ctermfg=White
+match TrailWhiteSpace /\s\+$/
 "
 " via http://vim.wikia.com/wiki/Modeline_magic
 " Append modeline after last line in buffer.
